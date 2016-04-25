@@ -7,17 +7,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:id="@+id/linearLayout">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
@@ -32,9 +32,29 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_form_rounded"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <EditText
+                android:id="@+id/Name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:hint="@string/name"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+            android:background="@drawable/bg_form_rounded"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/email"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -42,7 +62,7 @@
                 android:hint="@string/email"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:id="@+id/email" android:textColor="@color/black"/>
+                android:textColor="@color/black" />
         </LinearLayout>
 
         <Button
@@ -50,15 +70,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:background="@drawable/bg_button_rounded"
+            android:onClick="RegisterUser"
             android:text="@string/login"
-            android:textColor="@color/white" android:onClick="RegisterUser"/>
+            android:textColor="@color/white" />
+
     </LinearLayout>
 
     <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:src="@drawable/img"
-        android:layout_above="@+id/linearLayout" />
+        android:layout_above="@+id/linearLayout"
+        android:src="@drawable/img" />
 
 </RelativeLayout>

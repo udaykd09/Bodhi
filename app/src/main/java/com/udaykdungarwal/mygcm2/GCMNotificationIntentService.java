@@ -59,8 +59,8 @@ public class GCMNotificationIntentService extends IntentService {
         mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
         mNotifyBuilder = new NotificationCompat.Builder(this)
-                .setContentTitle("Alert")
-                .setContentText("You've received new message.")
+                .setContentTitle("Bodhi Alert!")
+                .setContentText("Time to Water the Plant")
                 .setSmallIcon(R.drawable.ic_launcher);
         // Set pending intent
         mNotifyBuilder.setContentIntent(resultPendingIntent);
@@ -73,7 +73,7 @@ public class GCMNotificationIntentService extends IntentService {
 
         mNotifyBuilder.setDefaults(defaults);
         // Set the content for Notification
-        mNotifyBuilder.setContentText("New message from Server");
+        mNotifyBuilder.setContentText("Time to Water the Plant");
         // Set autocancel
         mNotifyBuilder.setAutoCancel(true);
         // Post a notification

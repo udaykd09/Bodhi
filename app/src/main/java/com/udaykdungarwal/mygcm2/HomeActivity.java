@@ -7,9 +7,14 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,7 +27,7 @@ public class HomeActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-
+        Context applicationContext = getApplicationContext();
         // Intent Message sent from Broadcast Receiver
         String str = getIntent().getStringExtra("msg");
 
@@ -30,6 +35,7 @@ public class HomeActivity extends Activity {
         SharedPreferences prefs = getSharedPreferences("UserDetails",
                 Context.MODE_PRIVATE);
         String eMailId = prefs.getString("eMailId", "");
+        String userName = prefs.getString("Name", "");
         // Set Title
         usertitleET = (TextView) findViewById(R.id.usertitle);
 
@@ -42,12 +48,51 @@ public class HomeActivity extends Activity {
                     Toast.LENGTH_LONG).show();
         }
 
-        usertitleET.setText("Hello " + eMailId + " !");
+        usertitleET.setText("Hello " + userName + " !");
         // When Message sent from Broadcase Receiver is not empty
         if (str != null) {
             // Set the message
-            msgET = (TextView) findViewById(R.id.message);
-            msgET.setText(str);
+//            Intent i = new Intent(applicationContext, AlertNotification.class);
+//            i.putExtra("Message", str);
+//            startActivity(i);
+//            finish();
+
+            final RelativeLayout rHome = (RelativeLayout) findViewById(R.id.rHome);
+
+            // Build an AlertDialog
+            AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+
+            // Set a message/question for alert dialog
+            builder.setMessage("The Soil moisture has reduced! Would you like Water your Plant?");
+
+            // Specify the dialog is not cancelable
+            builder.setCancelable(false);
+
+            // Set a title for alert dialog
+            builder.setTitle("Time to Water the Plant");
+
+            // Set the positive/yes button click click listener
+            builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    // Do something when click positive button
+                    rHome.setBackgroundColor(Color.parseColor("#FFA4E098"));
+                }
+            });
+
+            // Set the negative/no button click click listener
+            builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    // Do something when click the negative button
+                }
+            });
+
+            AlertDialog dialog = builder.create();
+            // Display the alert dialog on interface
+            dialog.show();
+
+
         }
     }
 

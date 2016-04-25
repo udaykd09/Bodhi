@@ -2,312 +2,312 @@
 <items version="2" >
 
     <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_fd6e5a774b5bb26f7c49ab05811547afa2fa6611/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.4.0_e717c1180e0c2d7b44cb789f22cd86e42a4e9e21/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.4.0_348b6f078c1b2d7c3fb141e74e495854a2f9fba5/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0-alpha2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="bf5aa3b026d5b5fd9f4ab5e8cf13499b9e016dfb">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0-alpha2_52ae73bbf026419164ec2ed6a2f9ca7be3a75e96/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.4.0_e1e5552cd06767d66bd0c080b0b68daf25b587d8/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0-alpha2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="2f417d93e1f62fd4fb4a2c0f3a4a882dd0ca7843">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0-alpha2_d4cc1de9ce5108e4284ee1d9f65433342b3b6ffe/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_d37aa141be96ee4d415ad52566a5cc55e0089044/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_441f1a34828a713b76dc3a89d9e9f2c69f1b67a3/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.19.0/ba2aafb867f6af469f936ae76426cf0a280094bd/google-api-client-android-1.19.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-android-1.19.0_27546cfd57ceb2051a32b7c5e42dfb29948ec33c/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/libs/Async-http/android-async-http-1.4.4.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.4_072a52e2c6cf3fda330cd7275a77b3120c2334be/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-jdk5-13.0_e869ba7296ae46398096fa04969dcf662d41972b/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-jackson2-1.19.0_3d67a6ab61de6d748d7a8dd80af98ccd312cfaa1/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.4.0_c8de42e23bfca0d75eb4647a591875d1fb57a903/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.4.0_b99ce084a608e7a0028b4b6acfad4151c6a930fa/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-oauth-client-1.19.0_46307b9acdfc96b215e089a756aec3ff4e1e80b8/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0-alpha2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="df7f6513d6e2aaa302bbac654807c6129b517090">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0-alpha2_2969d9d9415747582c97a6b47c1441bcebd114a5/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_b502983354efb4811ec7f48a0f2a4a545b7f61ed/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.4.0_1f3e6ed2851f3963934a0cf145b4c636d439b73c/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.1.3_269ae623d5c984aebdf276c7e80f312f3b6472e5/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.4.0_eb41d8cecc874fa3426cd8f373254a51fba0536c/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_157a39e20178ded82a02a52881fe77b0285ea3c2/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_5c7e8aca03185c9701fe5ffe9d6f812d901baada/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_4389c175a61af61a6787c456f65f96b6829483c6/classes.dex" />
-    </item>
-    <item
         jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.19.0/6a21277d9bebe267b7ddee028b241eebc756c040/google-api-client-1.19.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-1.19.0_7f4af3d44b1ef23e03d36524d85b2e389dc170d5/classes.dex" />
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-1.19.0_7f4af3d44b1ef23e03d36524d85b2e389dc170d5/classes.dex" />
     </item>
     <item
-        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.19.0/cdca49ad0977c040f603478aa2e16b2775c8fec6/google-http-client-1.19.0.jar"
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-1.19.0_85c8612784f69af42acd712a1d957c7f1b66d6c2/classes.dex" />
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.4.0_bd84eece3569d7ac7b8604d0d96eb5b388efa208/classes.dex" />
     </item>
     <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_001b15b0460b33b7ffdab5fe013a9a1f95854067/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_738fa5efa397fbeeb7ce8b36a0de764b83e2ebe8/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_afb208f0f95bd3ffb34284e222e008735f16f040/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_19ae05eb78dc40ed39d7deeff9dc3de526928983/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.4.0_0559166027a88c0de0ff8bdb9dab0bba4ab4ebac/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.4.0_75cc2f1c7184c6c42b39cb1b80e35c868d896ea8/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_7affc3d1eaac3d2c4d407cac77f3883f57b73fd6/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/gcm/build/libs/gcm-android-endpoints.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="94a4bd398ab6ff2a1e535b781b4ee21d483d1c9d">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/gcm-android-endpoints_4e4071819e77c9e7870455a9b440881dc6a948f4/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_d2ff2f42f1a8c97b7fcf00719d0552092cbd7149/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.19.0/e3f11020c2c812112803d252d1392872d3f619c8/google-http-client-android-1.19.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-android-1.19.0_ba9095b0bfab71746810d2910ce4727a380d3490/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-alpha2/jars/libs/internal_impl-24.0.0-alpha2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e460bc069dfd21d22770cf2a2370c9021b9c98a2">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0-alpha2_add3b4d6bf1d72efd19a6afd634ab32956c66061/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="661a632c3b434991d6364690cbe0f786371101cc">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0-alpha2_4750a5c112f4479684c916afb345ec05ab459778/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_a150260d24fbe0614576436c65bf62344458eda1/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_bd88fcbb7291d7c1f6bb14cd08aba2544b462ed4/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.4.0_8ec642d3b7f4dc2e2dc3df539dc4653613094b2f/classes.dex" />
-    </item>
-    <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0-alpha2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="dc88341cbaaac9d67a982378e5df68d8c81289ed">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0-alpha2_6940c72e2b031f62f235a59a4cd72ca94d91c098/classes.dex" />
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.4.0_a97817cfb11c54b174fc4694be589e8aa7bf0e16/classes.dex" />
     </item>
     <item
         jar="/Users/uday/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0-alpha2/support-annotations-24.0.0-alpha2.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8071e1e6cd07e9253720313d6c14286a7ee424e0">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0-alpha2_1566256ea8c2ae04d151add687c463a2be80564a/classes.dex" />
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0-alpha2_1566256ea8c2ae04d151add687c463a2be80564a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_a3f5b06faf4f0dc14bb95050f386c36346194178/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_04f8ede5cd2c14791dc26e88d41c959ee221c126/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.19.0/cdca49ad0977c040f603478aa2e16b2775c8fec6/google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-1.19.0_85c8612784f69af42acd712a1d957c7f1b66d6c2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-jackson2-1.19.0_3d67a6ab61de6d748d7a8dd80af98ccd312cfaa1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-oauth-client-1.19.0_46307b9acdfc96b215e089a756aec3ff4e1e80b8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_34e293124087354ad482b5d10c6bcd63df95205f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.1.3_269ae623d5c984aebdf276c7e80f312f3b6472e5/classes.dex" />
     </item>
     <item
         jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-1.3.9_06d271f339c7c60ca54f275995d2876fe1742a7f/classes.dex" />
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-1.3.9_06d271f339c7c60ca54f275995d2876fe1742a7f/classes.dex" />
     </item>
     <item
-        jar="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-alpha2/jars/classes.jar"
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dc88341cbaaac9d67a982378e5df68d8c81289ed">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0-alpha2_203a35ab0e6f0706ba52436c7655d7d0bf7a3af5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_c22c13fc96041649e027a98c5fd6bf53ebd7cc09/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.4.0_6144f52932678e719e3eed0f76d2b6356f64ab71/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_25128bda7fdd909b12b710a45f404760fc781102/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="661a632c3b434991d6364690cbe0f786371101cc">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0-alpha2_108f2730356be1cba8d44177673899384c17ace3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_11b28c322977d8f3495d0d728a1fa1ce71c09fcb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_5c1cbd853b6cf3792b3ee2b4776930817de8d9ff/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_a2e099f554f3b8670aa273d3a3091af9f618c7b4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bf5aa3b026d5b5fd9f4ab5e8cf13499b9e016dfb">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0-alpha2_db6ea40166790399cd6018c994704df01987eb4f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2f417d93e1f62fd4fb4a2c0f3a4a882dd0ca7843">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0-alpha2_63b733a9553522ccbee35c603816cfe46e6983db/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.4.0_ec891a4177d3bc8a35adc7b606a3d49c7d5ab140/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="df7f6513d6e2aaa302bbac654807c6129b517090">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0-alpha2_3fcaf97aeade353acf3a2f635bd1159d3338cae5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.4.0_7c8f3a19e840738f40ccf30000ea6e50bd08366b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-alpha2/jars/libs/internal_impl-24.0.0-alpha2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e460bc069dfd21d22770cf2a2370c9021b9c98a2">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0-alpha2_6ddd52c6cd24334e8bf930f502177ef89df09636/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.4.0_0d4bfbebe2523f60fa99137ab146305f3d341303/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_cca27169201306ee5b29a412ec7965d90c90ce4a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_54592b5b3564e37df63084275413e46a1d577734/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_1d02b8005072428cb084e8793e1cc623a10f2c0a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_fc9c3522bf4bbfadfbcc7b5a77e7963e7eb0f570/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_d15052d2f8185efa13b654bc910646bccaf19d1c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_fdacbde68648d3dee2c075996fee58443b13ab02/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_43c473c2089355ba6f287accc814259d34139d17/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/libs/Async-http/android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.4_6c794e7c681e54a4071723f4e7d7346a1b3ce46e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/gcm/build/libs/gcm-android-endpoints.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9387f7b2c35a1aee0145849ccabf4bad7cef645a">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/gcm-android-endpoints_5b24f345222bf7ac35a18616f840af6ced4fa2ef/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.4.0_1a150407066c099223891c6331671e6aad1fdf51/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.4.0_ce270d813b552e945c0bfd3c0751ec8a38441960/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-jdk5-13.0_e869ba7296ae46398096fa04969dcf662d41972b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.19.0/e3f11020c2c812112803d252d1392872d3f619c8/google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-android-1.19.0_ba9095b0bfab71746810d2910ce4727a380d3490/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.19.0/ba2aafb867f6af469f936ae76426cf0a280094bd/google-api-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-android-1.19.0_27546cfd57ceb2051a32b7c5e42dfb29948ec33c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.4.0_6f2b582aab54cc5728a31fd1939d80de2869e398/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-alpha2/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="32ab8bede8cd600f25a5bb3fe15068c81c8910dc">
-        <dex dex="/Users/uday/Documents/Android/MyGCM2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0-alpha2_2b06f2ea35fff54cc95aa2ca6658bad6839e80ce/classes.dex" />
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0-alpha2_cd23855e9726e7972d095fa2b1681342b8decf67/classes.dex" />
+    </item>
+    <item
+        jar="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/Users/uday/Documents/Android/Bodhi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.4.0_0a35acb7069a78458e11c1bb791304a7bf34709f/classes.dex" />
     </item>
 
 </items>

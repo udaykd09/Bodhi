@@ -34,7 +34,9 @@ public class MainActivity extends Activity {
 
     public static final String REG_ID = "regId";
     public static final String EMAIL_ID = "eMailId";
+    public static final String USER_NAME = "Name";
     EditText emailET;
+    EditText nameET;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +45,7 @@ public class MainActivity extends Activity {
 
         applicationContext = getApplicationContext();
         emailET = (EditText) findViewById(R.id.email);
+        nameET = (EditText) findViewById(R.id.Name);
 
         prgDialog = new ProgressDialog(this);
         // Set Progress Dialog Text
@@ -66,6 +69,7 @@ public class MainActivity extends Activity {
     // When Register Me button is clicked
     public void RegisterUser(View view) {
         String emailID = emailET.getText().toString();
+        String userName = nameET.getText().toString();
 
         if (!TextUtils.isEmpty(emailID) && Utility.validate(emailID)) {
 
@@ -74,7 +78,7 @@ public class MainActivity extends Activity {
             if (checkPlayServices()) {
 
                 // Register Device in GCM Server
-                registerInBackground(emailID);
+                registerInBackground(emailID, userName);
             }
         }
         // When Email is invalid
@@ -86,7 +90,7 @@ public class MainActivity extends Activity {
     }
 
     // AsyncTask to register Device in GCM Server
-    private void registerInBackground(final String emailID) {
+    private void registerInBackground(final String emailID, final String userName) {
         new AsyncTask<Void, Void, String>() {
             @Override
             protected String doInBackground(Void... params) {
@@ -110,7 +114,7 @@ public class MainActivity extends Activity {
             protected void onPostExecute(String msg) {
                 if (!TextUtils.isEmpty(regId)) {
                     // Store RegId created by GCM Server in SharedPref
-                    storeRegIdinSharedPref(applicationContext, regId, emailID);
+                    storeRegIdinSharedPref(applicationContext, regId, emailID, userName);
                     Toast.makeText(
                             applicationContext,
                             "Registered with GCM Server successfully.nn"
@@ -127,12 +131,13 @@ public class MainActivity extends Activity {
 
     // Store  RegId and Email entered by User in SharedPref
     private void storeRegIdinSharedPref(Context context, String regId,
-                                        String emailID) {
+                                        String emailID, String userName) {
         SharedPreferences prefs = getSharedPreferences("UserDetails",
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
         editor.putString(REG_ID, regId);
         editor.putString(EMAIL_ID, emailID);
+        editor.putString(USER_NAME, userName);
         editor.commit();
         storeRegIdinServer();
 
