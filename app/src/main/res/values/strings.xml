@@ -1,0 +1,10 @@
+<resources>
+    <string name="action_settings">Action Settings</string>
+    <string name="app_name">Bodhi</string>
+    <string name="welcome_txt">Bodhi</string>
+    <string name="email">Email Address</string>
+    <string name="login">Register Me</string>
+    <string name="defaultmsg">Message sent by server will appear here.</string>
+    <string name="msg_title">Message</string>
+    <string name="user_title">Hello User</string>
+</resources>
