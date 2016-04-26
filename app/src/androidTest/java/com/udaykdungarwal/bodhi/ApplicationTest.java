@@ -1,4 +1,4 @@
-package com.udaykdungarwal.mygcm2;
+package com.udaykdungarwal.bodhi;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package com.udaykdungarwal.mygcm2;
+package com.udaykdungarwal.bodhi;
 
 import org.junit.Test;
 

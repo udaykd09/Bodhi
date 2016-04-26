@@ -1,4 +1,4 @@
-package com.udaykdungarwal.mygcm2;
+package com.udaykdungarwal.bodhi;
 
 /**
  * Created by uday on 4/22/16.

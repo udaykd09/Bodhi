@@ -1,4 +1,4 @@
-package com.udaykdungarwal.mygcm2;
+package com.udaykdungarwal.bodhi;
 
 import java.io.IOException;
 
@@ -129,7 +129,7 @@ public class MainActivity extends Activity {
         }.execute(null, null, null);
     }
 
-    // Store  RegId and Email entered by User in SharedPref
+    // Store  RegId, Name and Email entered by User in SharedPref
     private void storeRegIdinSharedPref(Context context, String regId,
                                         String emailID, String userName) {
         SharedPreferences prefs = getSharedPreferences("UserDetails",
@@ -139,14 +139,15 @@ public class MainActivity extends Activity {
         editor.putString(EMAIL_ID, emailID);
         editor.putString(USER_NAME, userName);
         editor.commit();
-        storeRegIdinServer();
+        storeRegIdinServer(emailID);
 
     }
 
     // Share RegID with GCM Server Application (Php)
-    private void storeRegIdinServer() {
+    private void storeRegIdinServer(String emailID) {
         prgDialog.show();
         params.put("regId", regId);
+        params.put("mail", emailID);
         // Make RESTful webservice call using AsyncHttpClient object
         AsyncHttpClient client = new AsyncHttpClient();
         client.post(ApplicationConstants.APP_SERVER_URL, params,
@@ -161,7 +162,7 @@ public class MainActivity extends Activity {
                             prgDialog.dismiss();
                         }
                         Toast.makeText(applicationContext,
-                                "Reg Id shared successfully with Web App ",
+                                "Reg Id shared successfully with Web Server ",
                                 Toast.LENGTH_LONG).show();
                         Intent i = new Intent(applicationContext,
                                 HomeActivity.class);

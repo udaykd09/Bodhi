@@ -1,14 +1,11 @@
-package com.udaykdungarwal.mygcm2;
+package com.udaykdungarwal.bodhi;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.View;
-import android.widget.Button;
+import android.support.v4.widget.DrawerLayout;
 import android.widget.RelativeLayout;
 
 public class AlertNotification extends Activity {
@@ -16,9 +13,9 @@ public class AlertNotification extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.app_bar_navigation__drawer);
 
-        final RelativeLayout rHome = (RelativeLayout) findViewById(R.id.rHome);
+        final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         // Build an AlertDialog
         AlertDialog.Builder builder = new AlertDialog.Builder(AlertNotification.this);
@@ -37,7 +34,7 @@ public class AlertNotification extends Activity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // Do something when click positive button
-                rHome.setBackgroundColor(Color.parseColor("#FFA4E098"));
+                drawer.setBackgroundColor(Color.parseColor("#FFA4E098"));
             }
         });
 

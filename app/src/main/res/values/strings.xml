@@ -9,7 +9,12 @@
     <string name="msg_title">Message</string>
     <string name="user_title">Hello User</string>
     <string name="title_activity_home2">HomeActivity2</string>
-
+    <string-array name="plants_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
