@@ -40,7 +40,7 @@ public class GCMNotificationIntentService extends IntentService {
                         + extras.toString());
             } else if (GoogleCloudMessaging.MESSAGE_TYPE_MESSAGE
                     .equals(messageType)) {
-                sendNotification("Message Received from Google GCM Server:nn"
+                sendNotification(""
                         + extras.get(ApplicationConstants.MSG_KEY));
             }
         }
@@ -60,7 +60,7 @@ public class GCMNotificationIntentService extends IntentService {
 
         mNotifyBuilder = new NotificationCompat.Builder(this)
                 .setContentTitle("Bodhi Alert!")
-                .setContentText("Time to Water the Plant")
+                .setContentText("Notification from Bodhi for your activity")
                 .setSmallIcon(R.drawable.ic_launcher);
         // Set pending intent
         mNotifyBuilder.setContentIntent(resultPendingIntent);
@@ -73,7 +73,7 @@ public class GCMNotificationIntentService extends IntentService {
 
         mNotifyBuilder.setDefaults(defaults);
         // Set the content for Notification
-        mNotifyBuilder.setContentText("Time to Water the Plant");
+        mNotifyBuilder.setContentText("Notification from Bodhi for your activity");
         // Set autocancel
         mNotifyBuilder.setAutoCancel(true);
         // Post a notification

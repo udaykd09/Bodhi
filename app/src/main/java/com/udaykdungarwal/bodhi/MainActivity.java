@@ -150,7 +150,7 @@ public class MainActivity extends Activity {
         params.put("mail", emailID);
         // Make RESTful webservice call using AsyncHttpClient object
         AsyncHttpClient client = new AsyncHttpClient();
-        client.post(ApplicationConstants.APP_SERVER_URL, params,
+        client.post(ApplicationConstants.APP_INSERT_USER_URL, params,
                 new AsyncHttpResponseHandler() {
                     // When the response returned by REST has Http
                     // response code '200'

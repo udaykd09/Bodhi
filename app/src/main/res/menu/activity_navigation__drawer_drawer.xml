@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:title="Slideshow" />
-    </group>
-
-    <item android:title="Add Plants">
+    <item android:title="Activity Log">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:title="Share" />
+                android:id="@+id/Activites"
+                android:title="Activites" />
+        </menu>
+    </item>
+
+    <item android:title="Add Plant">
+        <menu>
+            <item
+                android:id="@+id/PlantsList"
+                android:title="List of Plants" />
+        </menu>
+    </item>
+
+    <item android:title="Remove Plant">
+        <menu>
+            <item
+                android:id="@+id/RemovePlantsList"
+                android:title="Current Plants" />
         </menu>
     </item>
 

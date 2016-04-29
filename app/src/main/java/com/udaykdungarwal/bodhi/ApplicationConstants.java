@@ -6,11 +6,12 @@ package com.udaykdungarwal.bodhi;
 public interface ApplicationConstants {
 
     // Php Application URL to store Reg ID created
-    static final String APP_SERVER_URL = "http://udaykdungarwal.com/gcm/gcm.php?shareRegId=true";
-
+    String APP_INSERT_USER_URL = "http://udaykdungarwal.com/Bodhi/insert_user.php";
+    String APP_INSERT_PLANT_URL = "http://udaykdungarwal.com/Bodhi/insert_plant.php";
+    String APP_DELETE_PLANT_URL = "http://udaykdungarwal.com/Bodhi/delete_plant.php";
     // Google Project Number
-    static final String GOOGLE_PROJ_ID = "228211227535";
+    String GOOGLE_PROJ_ID = "228211227535";
     // Message Key
-    static final String MSG_KEY = "m";
+    String MSG_KEY = "m";
 
 }

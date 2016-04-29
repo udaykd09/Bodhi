@@ -1,5 +1,5 @@
 <resources>
-    <string name="action_settings">Action Settings</string>
+    <string name="action_settings">Settings</string>
     <string name="app_name">Bodhi</string>
     <string name="welcome_txt">Bodhi</string>
     <string name="email">Email Address</string>
@@ -9,12 +9,40 @@
     <string name="msg_title">Message</string>
     <string name="user_title">Hello User</string>
     <string name="title_activity_home2">HomeActivity2</string>
+    <string name="alert_dialog_ok">Select</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string-array name="plants_array">
         <item>Mercury</item>
         <item>Venus</item>
         <item>Earth</item>
         <item>Mars</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
     </string-array>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="my_plants_array">
+    </string-array>
 </resources>

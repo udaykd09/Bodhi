@@ -28,12 +28,8 @@
             android:id="@+id/usertitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:text="@string/user_title"
-            android:textColor="@color/white"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_gravity="center_horizontal" />
+            style="@style/shadoweffect"
+            android:text="@string/user_title" />
 
     </LinearLayout>
 

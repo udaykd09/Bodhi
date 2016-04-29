@@ -7,5 +7,5 @@
     <color name="bg_button_login">#006400</color>
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#78AB46</color>
-    <color name="colorAccent">#FFF599</color>
+    <color name="colorAccent">#000000</color>
 </resources>

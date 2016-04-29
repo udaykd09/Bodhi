@@ -22,16 +22,21 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
-    TextView msgET, usertitleET;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
+public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
+    TextView usertitleET, usernameND, mailIDND, activitylogTV;
+    String email, regId, userName;
     private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
 
     @Override
@@ -41,12 +46,26 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // Get Email ID from Shared preferences
+        SharedPreferences prefs = getSharedPreferences("UserDetails",
+                Context.MODE_PRIVATE);
+        email = prefs.getString("eMailId", "");
+        userName = prefs.getString("Name", "");
+        regId = prefs.getString("regId", "");
+        // Set Title
+        usertitleET = (TextView) findViewById(R.id.usertitle);
+        usertitleET.setText("Hello " + userName + " !");
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Context applicationContext = getApplicationContext();
+                String[] plants = applicationContext.getResources().getStringArray(R.array.plants_array);
+                PlantListDialog d = new PlantListDialog(HomeActivity.this, regId, email, plants, true);
+                d.show();
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
             }
         });
 
@@ -59,17 +78,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        Context applicationContext = getApplicationContext();
         // Intent Message sent from Broadcast Receiver
-        String str = getIntent().getStringExtra("msg");
-
-        // Get Email ID from Shared preferences
-        SharedPreferences prefs = getSharedPreferences("UserDetails",
-                Context.MODE_PRIVATE);
-        String eMailId = prefs.getString("eMailId", "");
-        String userName = prefs.getString("Name", "");
-        // Set Title
-        usertitleET = (TextView) findViewById(R.id.usertitle);
+        final String str = getIntent().getStringExtra("msg");
 
         // Check if Google Play Service is installed in Device
         // Play services is needed to handle GCM stuffs
@@ -80,44 +90,64 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 //                    Toast.LENGTH_LONG).show();
 //        }
 
-        usertitleET.setText("Hello " + userName + " !");
-
-        // When Message sent from Broadcase Receiver is not empty
+        // When Message sent from Broadcast Receiver is not empty
         if (str != null) {
+            if (str.contains("Response")) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+                builder.setMessage(str);
+                builder.setCancelable(false);
+                builder.setTitle("Response");
+                builder.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            } else if (str.contains("Alert")) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+                builder.setMessage(str);
+                builder.setCancelable(false);
+                builder.setTitle("Alert");
+                builder.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            } else {
+                AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+                builder.setMessage("Soil moisture for '" + str + "' has reduced! Would you like Water it?");
+                builder.setCancelable(false);
+                builder.setTitle("Time to Water the Plant");
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Store Activity in Log SharedPref
+                        Calendar c = Calendar.getInstance();
+                        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                        String formattedDate = df.format(c.getTime());
+                        SharedPreferences prefslog = getSharedPreferences("No log", Context.MODE_PRIVATE);
+                        String past_log = prefslog.getString("log", "");
+                        String updated_log = past_log + "\n" + str + "        " + formattedDate + "\n" + "Watered the plant";
+                        SharedPreferences.Editor editor = prefslog.edit();
+                        editor.putString("log", updated_log);
+                        editor.commit();
+                        System.out.println("**" + updated_log);
+                    }
+                });
+                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Do something when click the negative button
+                    }
+                });
 
-            // Build an AlertDialog
-            AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
-
-            // Set a message/question for alert dialog
-            builder.setMessage("The Soil moisture has reduced! Would you like Water your Plant?");
-
-            // Specify the dialog is not cancelable
-            builder.setCancelable(false);
-
-            // Set a title for alert dialog
-            builder.setTitle("Time to Water the Plant");
-
-            // Set the positive/yes button click click listener
-            builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    // Do something when click positive button
-                }
-            });
-
-            // Set the negative/no button click click listener
-            builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    // Do something when click the negative button
-                }
-            });
-
-            AlertDialog dialog = builder.create();
-            // Display the alert dialog on interface
-            dialog.show();
-
-
+                AlertDialog dialog = builder.create();
+                // Display the alert dialog on interface
+                dialog.show();
+            }
         }
     }
 
@@ -170,6 +200,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.navigation__drawer, menu);
+        usernameND = (TextView) findViewById(R.id.usernameView);
+        usernameND.setText(userName);
+
+        mailIDND = (TextView) findViewById(R.id.mailIDView);
+        mailIDND.setText(email);
         return true;
     }
 
@@ -193,19 +228,42 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_share) {
-
-        }
-
+        Context applicationContext = getApplicationContext();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+
+        if (id == R.id.PlantsList) {
+            // Open the list of Plant
+            String[] plants = applicationContext.getResources().getStringArray(R.array.plants_array);
+            PlantListDialog d = new PlantListDialog(HomeActivity.this, regId, email, plants, true);
+            d.show();
+
+        } else if (id == R.id.Activites) {
+            SharedPreferences prefslog = getSharedPreferences("Log_Activity_file", Context.MODE_PRIVATE);
+            String Full_log = prefslog.getString("log", "");
+            LayoutInflater li = LayoutInflater.from(HomeActivity.this);
+            LinearLayout someLayout = (LinearLayout) li.inflate(R.layout.plant_activity_log, null);
+            System.out.println("**" + Full_log);
+            activitylogTV = (TextView) someLayout.findViewById(R.id.ActivityLogView);
+            activitylogTV.setText(Full_log);
+            AlertDialog.Builder alert = new AlertDialog.Builder(someLayout.getContext());
+            alert.setView(someLayout);
+            alert.setTitle("Log");
+            alert.setNeutralButton("Back", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                }
+            });
+            AlertDialog dialog = alert.create();
+            dialog.show();
+
+        } else if (id == R.id.RemovePlantsList) {
+            //Open Current List
+            String[] plants = applicationContext.getResources().getStringArray(R.array.plants_array);
+            PlantListDialog d = new PlantListDialog(HomeActivity.this, regId, email, plants, false);
+            d.show();
+        }
+
         return true;
     }
 
