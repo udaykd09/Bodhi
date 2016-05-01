@@ -69,6 +69,12 @@ public class PlantListDialog extends Dialog implements View.OnClickListener {
                             SharedPreferences.Editor editor = prefslog.edit();
                             editor.putString("log", updated_log);
                             editor.commit();
+//                            SharedPreferences prefslog2 = context.getSharedPreferences("Current_plants", Context.MODE_PRIVATE);
+//                            String past_list = prefslog2.getInt("array_size", array.length);
+//                            String updated_list = past_list + "\n" + plant;
+//                            SharedPreferences.Editor editor2 = prefslog2.edit();
+//                            editor2.putString("plants", updated_list);
+//                            editor2.commit();
                             System.out.println("**" + updated_log);
                         }
                     });
@@ -103,6 +109,12 @@ public class PlantListDialog extends Dialog implements View.OnClickListener {
                             SharedPreferences.Editor editor = prefslog.edit();
                             editor.putString("log", updated_log);
                             editor.commit();
+//                            SharedPreferences prefslog2 = context.getSharedPreferences("Current_plants", Context.MODE_PRIVATE);
+//                            String past_list = prefslog2.getString("plants", "");
+//                            String updated_list = past_list + "\n" + plant;
+//                            SharedPreferences.Editor editor2 = prefslog2.edit();
+//                            editor2.putString("plants", updated_list);
+//                            editor2.commit();
                             System.out.println("**" + updated_log);
                         }
                     });

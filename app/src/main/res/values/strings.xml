@@ -14,34 +14,15 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string-array name="plants_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
+        <item> Purple-Leaf Acacia</item>
+        <item> Trident Maple</item>
+        <item> Bigleaf Mapl</item>
+        <item> Box Elder</item>
+        <item> Red Maple</item>
+        <item> Yarrow</item>
+        <item> Deer Weed</item>
+        <item> California Buckeye</item>
+        <item> Red Horsechestnut </item>
     </string-array>
     <string-array name="my_plants_array">
     </string-array>
