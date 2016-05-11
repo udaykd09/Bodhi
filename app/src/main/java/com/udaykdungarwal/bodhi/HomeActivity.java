@@ -116,7 +116,19 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 });
                 AlertDialog dialog = builder.create();
                 dialog.show();
-            } else if (str.contains("Rain")) {
+            }  else if (str.contains("empty")) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+                builder.setMessage(str);
+                builder.setCancelable(false);
+                builder.setTitle("Alert");
+                builder.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            }   else if (str.contains("Rain")) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
                 builder.setMessage(str);
                 builder.setCancelable(false);
