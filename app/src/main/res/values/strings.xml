@@ -14,15 +14,181 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string-array name="plants_array">
-        <item> Purple-Leaf Acacia</item>
-        <item> Trident Maple</item>
-        <item> Bigleaf Mapl</item>
-        <item> Box Elder</item>
-        <item> Red Maple</item>
-        <item> Yarrow</item>
-        <item> Deer Weed</item>
-        <item> California Buckeye</item>
-        <item> Red Horsechestnut </item>
+        <item> 	Purple-Leaf Acacia	</item>
+        <item> 	Miniature Lupine	</item>
+        <item> 	Silver Dune Lupine	</item>
+        <item> 	Varied Lupine	</item>
+        <item> 	Catalina Ironwood	</item>
+        <item> 	Common loosestrife	</item>
+        <item> 	Common Tarweed	</item>
+        <item> 	Sweet Michelia	</item>
+        <item> 	Golden Champaca	</item>
+        <item> 	Little Gem Magnolia	</item>
+        <item> 	Majestic Beauty	</item>
+        <item> 	Russet Southern Magnolia	</item>
+        <item> 	St. Mary Magnolia	</item>
+        <item> 	Creeping Mahonia	</item>
+        <item> 	Malva Rosa, Island Mallow	</item>
+        <item> 	Wild Cucumber/Manroot	</item>
+        <item> 	Coast Manroot	</item>
+        <item> 	Heath Melaleuca	</item>
+        <item> 	Flaxleaf Paperbark	</item>
+        <item> 	Cajeput Tree	</item>
+        <item> 	Prickly Melaleuca	</item>
+        <item> 	California Melic	</item>
+        <item> 	Torrey melic	</item>
+        <item> 	New Zealand Christmas tree	</item>
+        <item> 	Sticky Monkeyflower	</item>
+        <item> 	Coyote Mint	</item>
+        <item> 	California Wax Myrtle, Pacific Bayberry	</item>
+        <item> 	Deer Grass	</item>
+        <item> 	Cat Mint	</item>
+        <item> 	Ditch-carrot, Water Parsley	</item>
+        <item> 	Hookers Evening Primrose	</item>
+        <item> 	Olive Tree	</item>
+        <item> 	Scarlet Bugler	</item>
+        <item> 	Penstemon	</item>
+        <item> 	Water Smartweed	</item>
+        <item> 	Common Knotweed	</item>
+        <item> 	Dotted Smartweed	</item>
+        <item> 	California Phacelia	</item>
+        <item> 	Stinging Phacelia	</item>
+        <item> 	California Canarygrass	</item>
+        <item> 	Canary Island Date Palm	</item>
+        <item> 	Date Palm	</item>
+        <item> 	Shore Pine	</item>
+        <item> 	Bishop Pine	</item>
+        <item> 	Keith Davey Chinese Pistache	</item>
+        <item> 	Seaside Pittosporum	</item>
+        <item> 	Victorian Box	</item>
+        <item> 	Coastal Plantain	</item>
+        <item> 	Seaside plantain	</item>
+        <item> 	London Plane Tree	</item>
+        <item> 	Salt marsh fleabane	</item>
+        <item> 	Fern Pine	</item>
+        <item> 	Beach/Dune Knotweed	</item>
+        <item> 	Polypody Fern	</item>
+        <item> 	Western Sword Fern	</item>
+        <item> 	Lombardy Poplar	</item>
+        <item> 	Silverweed	</item>
+        <item> 	Self Heal	</item>
+        <item> 	Krauter Vesuvius Plum	</item>
+        <item> 	Bitter cherry	</item>
+        <item> 	Holly Leaf Cherry/Islay Cherry	</item>
+        <item> 	Kwansan Japanese Flowering Cherry	</item>
+        <item> 	Sierra Plum	</item>
+        <item> 	Western Chokecherry	</item>
+        <item> 	Douglas Fir	</item>
+        <item> 	Bracken Fern	</item>
+        <item> 	New Bradford Pear	</item>
+        <item> 	Evergreen Pear	</item>
+        <item> 	Coast Live Oak	</item>
+        <item> 	Canyon Live Oak	</item>
+        <item> 	Cork Oak	</item>
+        <item> 	California Buttercup	</item>
+        <item> 	Redberry	</item>
+        <item> 	African Sumac	</item>
+        <item> 	Red Flowering Currant	</item>
+        <item> 	California Wild Rose	</item>
+        <item> 	Wood Rose/Dwarf Rose	</item>
+        <item> 	California Blackberry	</item>
+        <item> 	Golden Dock	</item>
+        <item> 	Western Dock	</item>
+        <item> 	Yellow Willow	</item>
+        <item> 	Arroyo Willow	</item>
+        <item> 	Yellow Willow	</item>
+        <item> 	California White Sage	</item>
+        <item> 	Cleveland Sage	</item>
+        <item> 	Coast Purple Sage	</item>
+        <item> 	Creeping Sage	</item>
+        <item> 	Hummingbird Sage	</item>
+        <item> 	Blue Elderberry	</item>
+        <item> 	Red Elderberry	</item>
+        <item> 	Tule	</item>
+        <item> 	California Bulrush	</item>
+        <item> 	Common Threesquare	</item>
+        <item> 	Bee Plant	</item>
+        <item> 	Broadleaf Stonecrop	</item>
+        <item> 	Marsh Ragwort	</item>
+        <item> 	Redwood	</item>
+        <item> 	Checkerbloom	</item>
+        <item> 	Blue-eyed Grass	</item>
+        <item> 	Goldenrod	</item>
+        <item> 	Dune Goldenrod	</item>
+        <item> 	Purple Needlegrass	</item>
+        <item> 	Queen Palm	</item>
+        <item> 	Common Snowberry	</item>
+        <item> 	Trailing Snowberry	</item>
+        <item> 	Wild Aster	</item>
+        <item> 	Dune Tansy	</item>
+        <item> 	Fringe Cups	</item>
+        <item> 	Littleleaf Linden	</item>
+        <item> 	Bull Clover	</item>
+        <item> 	Pinpoint Clover	</item>
+        <item> 	Whitetip Clover	</item>
+        <item> 	Tomcat Clover	</item>
+        <item> 	Cow Clover	</item>
+        <item> 	Water Gum	</item>
+        <item> 	Elegant Brisbane Box	</item>
+        <item> 	Southern Cattail	</item>
+        <item> 	Broadleaf Cattail	</item>
+        <item> 	Drake/Sempervirens Chinese Elm	</item>
+        <item> 	Stinging Nettle	</item>
+        <item> 	Hoary Nettle	</item>
+        <item> 	Huckleberry	</item>
+        <item> 	Purpletop Vervain	</item>
+        <item> 	Western Vervain	</item>
+        <item> 	California Wild Grape	</item>
+        <item> 	Mexican Fan Palm	</item>
+        <item> 	Narrowleaf Mule Ears	</item>
+        <item> 	Centaury	</item>
+        <item> 	Bentgrass	</item>
+        <item> 	Mugwort	</item>
+        <item> 	Santa Barbara sedge	</item>
+        <item> 	Bush Anemone	</item>
+        <item> 	Mountain mahogany	</item>
+        <item> 	Pipestems; Chaparral clematis	</item>
+        <item> 	Pacific bleeding heart	</item>
+        <item> 	Scouring Rush Horsetail	</item>
+        <item> 	Salal	</item>
+        <item> 	California black walnut	</item>
+        <item> 	Spreading rush	</item>
+        <item> 	Coast range melic	</item>
+        <item> 	Scarlet monkeyflower	</item>
+        <item> 	Creek monkeyflower	</item>
+        <item> 	Redwood sorrel	</item>
+        <item> 	Switchgrass	</item>
+        <item> 	Native mock orange	</item>
+        <item> 	Pacific ninebark	</item>
+        <item> 	Hookers fairy bells	</item>
+        <item> 	Valley oak	</item>
+        <item> 	Canyon gooseberry	</item>
+        <item> 	Fuchsia-flowered gooseberry	</item>
+        <item> 	Red willow	</item>
+        <item> 	Yellow-eyed grass	</item>
+        <item> 	Nightshade	</item>
+        <item> 	Foothill needlegrass	</item>
+        <item> 	California bay laurel	</item>
+        <item> 	Rosemary	</item>
+        <item> 	Rock rose cress	</item>
+        <item> 	Ithuriels Spear	</item>
+        <item> 	Berkley sedge	</item>
+        <item> 	Point Reyes Ceanothus	</item>
+        <item> 	Hounds Tongue	</item>
+        <item> 	California Buckwheat	</item>
+        <item> 	California Buckwheat </item>
+        <item> 	Sulphurflower buckwheat	</item>
+        <item> 	Common rush	</item>
+        <item> 	Wild Pea	</item>
+        <item> 	Large-flower linanthus	</item>
+        <item> 	Golden Currant	</item>
+        <item> 	Black sage	</item>
+        <item> 	California Indian Pink	</item>
+        <item> 	California Honeysuckle	</item>
+    </string-array>
+    <string-array name="cities_array">
+        <item> 	San Jose	</item>
+        <item> 	Sunnyvale	</item>
     </string-array>
     <string-array name="my_plants_array">
     </string-array>

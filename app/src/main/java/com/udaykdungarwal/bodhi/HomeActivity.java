@@ -116,6 +116,18 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 });
                 AlertDialog dialog = builder.create();
                 dialog.show();
+            } else if (str.contains("Rain")) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+                builder.setMessage(str);
+                builder.setCancelable(false);
+                builder.setTitle("Weather Alert");
+                builder.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                dialog.show();
             } else {
                 AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
                 builder.setMessage("Soil moisture for '" + str + "' has reduced! Would you like Water it?");
@@ -141,6 +153,16 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         // Do something when click the negative button
+                        Calendar c = Calendar.getInstance();
+                        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                        String formattedDate = df.format(c.getTime());
+                        SharedPreferences prefslog = getSharedPreferences("No log", Context.MODE_PRIVATE);
+                        String past_log = prefslog.getString("log", "");
+                        String updated_log = past_log + "\n" + str + "        " + formattedDate + "\n" + "Denied watering the plant";
+                        SharedPreferences.Editor editor = prefslog.edit();
+                        editor.putString("log", updated_log);
+                        editor.commit();
+                        System.out.println("**" + updated_log);
                     }
                 });
 
@@ -262,7 +284,13 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             String[] plants = applicationContext.getResources().getStringArray(R.array.plants_array);
             PlantListDialog d = new PlantListDialog(HomeActivity.this, regId, email, plants, false);
             d.show();
+        } else if (id == R.id.City) {
+            // Open the list of Cities
+            String[] cities = applicationContext.getResources().getStringArray(R.array.cities_array);
+            CityListDialog c = new CityListDialog(HomeActivity.this, regId, email, cities);
+            c.show();
         }
+
 
         return true;
     }

@@ -25,4 +25,11 @@
         </menu>
     </item>
 
+    <item android:title="Select City">
+        <menu>
+            <item
+                android:id="@+id/City"
+                android:title="Cities" />
+        </menu>
+    </item>
 </menu>

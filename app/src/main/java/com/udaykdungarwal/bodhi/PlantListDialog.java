@@ -57,7 +57,9 @@ public class PlantListDialog extends Dialog implements View.OnClickListener {
                     builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            storePlantinServer(context, plant, regId, emailID);
+                            SharedPreferences prefs = context.getSharedPreferences("UserDetails", Context.MODE_PRIVATE);
+                            String city = prefs.getString("citY", "");
+                            storePlantinServer(context, plant, regId, emailID, city);
                             dismiss();
                             // Store Activity in Log Sharedprefs
                             Calendar c = Calendar.getInstance();
@@ -157,13 +159,14 @@ public class PlantListDialog extends Dialog implements View.OnClickListener {
         filterText.removeTextChangedListener(filterTextWatcher);
     }
 
-    private void storePlantinServer(final Context applicationContext, String plant, String regId, String emailID) {
+    private void storePlantinServer(final Context applicationContext, String plant, String regId, String emailID, String city) {
         // Make RESTful webservice call using AsyncHttpClient object
         final ProgressDialog prgDialog = new ProgressDialog(applicationContext);
         RequestParams params = new RequestParams();
         params.put("regId",regId);
         params.put("plant",plant);
         params.put("mail", emailID);
+        params.put("city", city);
         AsyncHttpClient client = new AsyncHttpClient();
         client.post(ApplicationConstants.APP_INSERT_PLANT_URL, params,
                 new AsyncHttpResponseHandler() {

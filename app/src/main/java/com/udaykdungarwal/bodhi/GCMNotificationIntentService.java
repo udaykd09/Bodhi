@@ -14,10 +14,10 @@ import android.support.v4.app.NotificationCompat;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
+import java.util.Random;
+
 public class GCMNotificationIntentService extends IntentService {
     // Sets an ID for the notification, so it can be updated
-    public static final int notifyID = 9001;
-    NotificationCompat.Builder builder;
 
     public GCMNotificationIntentService() {
         super("GcmIntentService");
@@ -47,10 +47,16 @@ public class GCMNotificationIntentService extends IntentService {
         GcmBroadcastReceiver.completeWakefulIntent(intent);
     }
 
+    public int generateRandom(){
+        Random random = new Random();
+        return random.nextInt(9999 - 1000) + 1000;
+    }
+
     private void sendNotification(String msg) {
         Intent resultIntent = new Intent(this, HomeActivity.class);
         resultIntent.putExtra("msg", msg);
-        PendingIntent resultPendingIntent = PendingIntent.getActivity(this, 0,
+        final int notifyID=generateRandom();
+        PendingIntent resultPendingIntent = PendingIntent.getActivity(this, notifyID,
                 resultIntent, PendingIntent.FLAG_ONE_SHOT);
 
         NotificationCompat.Builder mNotifyBuilder;
